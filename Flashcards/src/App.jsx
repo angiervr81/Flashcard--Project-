@@ -1,13 +1,12 @@
-import React from 'react'
-import './App.css'
+import './App.css';
+import FlashcardList from './assets/components/FlashcardList';
 
 function App() {
-
   return (
     <div className="App">
-      <h1>Flashcards App</h1>
+      <FlashcardList />
     </div>
   );
 }
 
-export default App
+export default App;
