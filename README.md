@@ -3,7 +3,7 @@ Submitted by: **Angie Rivera*
 
 # About This Wed App
 Explore essential data structures through flashcards! 
-You'll review definitions, use cases, time complexities, common operations, comparisons, and more.*
+You'll review definitions, use cases, time complexities, common operations, comparisons, and more.
 
 Time spent: **7** hours spent in total
 
