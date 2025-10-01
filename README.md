@@ -63,7 +63,7 @@ src/
 ├── main.jsx                       # Entry point for React app
 
 ## Rescoures
- # Design & Styling:
+Design & Styling:
    [Hero Patterns]([https://www.screentogif.com/](https://heropatterns.com/)): 
     - Background Used:Circuit Board
    [Google Font]([https://fonts.google.com/]): 
