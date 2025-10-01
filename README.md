@@ -48,19 +48,24 @@ Describe any challenges encountered while building the app.
 - Styling: Choosing design elements and applying consistent CSS styling to make the flashcards visually appealing required several iterations.
 
 
-## Project File Structure
-src/
-├── assets/
-│   ├── components/
-│   │   ├── Flashcard.jsx          # Renders individual flashcards
-│   │   └── FlashcardList.jsx      # Manages list of flashcards + random card logic
-│   ├── data/
-│   │   └── flashcard.js           # Flashcard data (questions, answers, optional images)
-│   └── images/
-│       └── stack.png              # Sample image used in flashcard
-├── App.jsx                        # Main App component
-├── index.css                      # Global styling including fonts and background
-├── main.jsx                       # Entry point for React app
+### Project File Structure
+
+| Path                              | Description                                             |
+|-----------------------------------|---------------------------------------------------------|
+| `src/`                            | Root source directory                                   |
+| ├── `assets/`                     | Contains components, data, and image assets             |
+| ├── ├── `components/`             | React components for the flashcards                     |
+| ├── ├── ├── `Flashcard.jsx`       | Renders individual flashcards                           |
+| ├── ├── ├── `FlashcardList.jsx`   | Manages list of flashcards and random logic             |
+| ├── ├── `data/`                   | Static data used for flashcards                         |
+| ├── ├── ├── `flashcard.js`        | Flashcard questions, answers, and optional images       |
+| ├── ├── `images/`                 | Image assets used in cards                              |
+| ├── ├── ├── `stack.png`           | Sample image used in a flashcard                        |
+| ├── `App.jsx`                     | Main React App component                                |
+| ├── `index.css`                   | Global styles including fonts and background            |
+| ├── `main.jsx`                    | Entry point for React app                               |
+
+
 
 ## Rescoures
 Design & Styling:
