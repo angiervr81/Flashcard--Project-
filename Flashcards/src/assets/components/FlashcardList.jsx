@@ -15,7 +15,7 @@ function FlashcardList() {
   return (
     <div className="flashcard-list">
       <h1> Data Structures Flashcards</h1>
-      <p>Description: Review fundamental in data structures you will look over: Definitions, Use Cases, Time Complexity, Common Operations, Comparison, Behavior --> Structure!</p>
+      <p>Description: Review fundamental in data structures you will look over: Definitions, Use Cases, Time Complexity, Common Operations, Comparison, Behavior to Structure!</p>
       <p>Total Cards: {flashcards.length}</p>
 
       <Flashcard card={currentCard} />
