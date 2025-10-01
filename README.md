@@ -1,7 +1,7 @@
 # Web Development Project 2 - *Data Structures Flashcards*
 Submitted by: **Angie Rivera*
 
-#About This Wed App
+# About This Wed App
 **Explore essential data structures through flashcards! 
 You'll review definitions, use cases, time complexities, common operations, comparisons, and more.*
 
