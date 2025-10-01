@@ -31,6 +31,12 @@ button {
   cursor: pointer;
 }
 
+.flashcard img {
+  border-radius: 6px;
+  margin-bottom: 1rem;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
 .card-inner {
   position: relative;
   width: 100%;
@@ -62,3 +68,17 @@ button {
   transform: rotateY(180deg);
   background: #2680ca;
 }
+.card-answer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.card-image {
+  margin-top: 1rem;
+  max-width: 100%;
+  height: auto;
+  border-radius: 6px;
+}
+
