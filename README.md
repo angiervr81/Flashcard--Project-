@@ -64,10 +64,8 @@ src/
 
 ## Rescoures
 Design & Styling:
-   [Hero Patterns]([https://www.screentogif.com/](https://heropatterns.com/)): 
-    - Background Used:Circuit Board
-   [Google Font]([https://fonts.google.com/]): 
-    - Font used: Roboto
+  - [Hero Patterns]([https://www.screentogif.com/](https://heropatterns.com/)) for Background Uses : Circuit Board
+  -  [Google Font]([https://fonts.google.com/]) for Font used : Roboto
 
 ## Development Tools
 - React — UI library for building reusable components
