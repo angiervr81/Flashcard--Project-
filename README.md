@@ -69,7 +69,7 @@ Describe any challenges encountered while building the app.
 
 ## Rescoures
 Design & Styling:
-  - [Hero Patterns](https://heropatterns.com/) for Background Uses : Circuit Board
+  - [Hero Patterns](https://heropatterns.com/) for Background used : Circuit Board
   -  [Google Font](https://fonts.google.com/) for Font used : Roboto
 
 ## Development Tools
