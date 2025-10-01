@@ -1,5 +1,5 @@
 # Web Development Project 2 - *Data Structures Flashcards*
-Submitted by: **Angie Rivera**
+Submitted by: *Angie Rivera*
 
 # About This Wed App
 **Explore essential data structures through flashcards!**
