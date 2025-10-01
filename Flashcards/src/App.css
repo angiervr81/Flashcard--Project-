@@ -6,13 +6,18 @@
 }
 
 .App {
-  font-family: sans-serif;
-  text-align: center;
+  background: rgba(255, 255, 255, 0.95); 
+  border-radius: 12px;
   padding: 2rem;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.25);
+  max-width: 900px;
+  width: 90%;
+  margin: 2rem auto;
 }
 
+
 .card-description {
-  font-size: 1.5rem; 
+  font-size: 1.4rem; 
   line-height: 1.9;
 }
 
@@ -20,7 +25,7 @@ button {
   margin-top: 1rem;
   padding: 0.5rem 1rem ;
   font-size: 1rem;
-  background: #16862e;
+  background: #16862ea9;
 }
 
 .flashcard {
@@ -53,20 +58,22 @@ button {
   position: absolute;
   width: 100%;
   height: 100%;
-  background:#2680ca;
+  background: #055eb1f1;
+  color: #161414;
   backface-visibility: hidden;
   display: flex;
   align-items: center;
   justify-content: center;
-  font-size: 1.5rem;
-  border: 1px solid #ccc;
+  font-size: 2rem;
+  border: 1px solid #200101;
   border-radius: 8px;
-  box-shadow: 0 0px 10px rgba(0,0,0,0.1);
+  padding: 1rem;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.493);
 }
 
 .card-back {
   transform: rotateY(180deg);
-  background: #2680ca;
+  background: #664080d7;
 }
 .card-answer {
   display: flex;
