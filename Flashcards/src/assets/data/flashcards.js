@@ -3,28 +3,32 @@ export const flashcards = [
     {
         id: 1, 
         question: "What is a Stack ?",
-        answer: "A linear data structure that follows the Last In First Out (LIFO) principle. It allows adding and removing elements only from one end, called the top of the stack."
+        answer: "A linear data structure that follows the Last In First Out (LIFO) principle. It allows adding and removing elements only from one end, called the top of the stack.",
+        image: "stack.png"
     },
     {
         id: 2,
         question: "What is a Queue ?",
-        answer: "A linear data structure that follows the First In First Out (FIFO) principle. It allows adding elements at the rear end and removing elements from the front end."
+        answer: "A linear data structure that follows the First In First Out (FIFO) principle. It allows adding elements at the rear end and removing elements from the front end.",
+        image: "queue.png"
     },
     {
         id: 3,
         question: " What is a Hash Table ?",
-        answer: "A data structure that maps keys to values using hash function for fast lookups . It provides efficient insertion, deletion, and retrieval operations based on the key."
+        answer: "A data structure that maps keys to values using hash function for fast lookups . It provides efficient insertion, deletion, and retrieval operations based on the key.",
+        image: "hashTable.png"
     },
     {
         id: 4,
         question: "What is a Linked List ?",
-        answer: "A linear data structure where elements, called nodes, are connected through pointers. Each node contains data and a reference to the next node in the sequence."
+        answer: "A linear data structure where elements, called nodes, are connected through pointers. Each node contains data and a reference to the next node in the sequence.",
+        image: "LinkedList.png"
     },
     {
         id: 5,
         question: "What is a Binary Tree ?",
-        answer: "A hierarchical data structure where each node has at most two children, referred to as the left and right child. It is used for efficient searching, sorting, and hierarchical representation of data."
-    },
+        answer: "A hierarchical data structure where each node has at most two children, referred to as the left and right child. It is used for efficient searching, sorting, and hierarchical representation of data.",
+        image: "binaryTree.png"},
     
     
     //Use Case Flashcards
