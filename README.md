@@ -34,7 +34,7 @@ The following **optional** features are implemented:
 
 Here's a walkthrough of implemented required features:
 
-<img src="./Wk2_Project2_Flashcards.gi" title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<img src="./Wk2_Project2_Flashcards.gif" title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 GIF created with ...  
 [ScreenToGif](https://www.screentogif.com/) for Windows
