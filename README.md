@@ -34,7 +34,7 @@ The following **optional** features are implemented:
 
 Here's a walkthrough of implemented required features:
 
-<img src='[http://i.imgur.com/link/to/your/gif/file.gif](https://submissions.us-east-1.linodeobjects.com/web102/tKXW3Tnd.gif)' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<img src='[http://i.imgur.com/link/to/your/gif/file.gif]' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 GIF created with ...  
 [ScreenToGif](https://www.screentogif.com/) for Windows
@@ -71,7 +71,7 @@ src/
 
 ## Development Tools
 - React — UI library for building reusable components
-- - Vite — Build tool for faster React setup
+- Vite — Build tool for faster React setup
 - VS Code — Code editor used
   
 ## License
