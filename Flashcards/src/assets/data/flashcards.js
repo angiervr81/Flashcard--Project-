@@ -34,27 +34,27 @@ export const flashcards = [
     //Use Case Flashcards
     {
         id: 6,
-        question: "When would you to use a Stack ?",
-        answer: "When you need to reverse a sequence of elements, such as in function call management (call stack) or expression evaluation (postfix notation). Backtracking (e.g., undo feature), depth-first search."
+        question: "When would you to use a Stack?",
+        answer: "A stack is used when you need to reverse elements or handle tasks in last-in, first-out order, like in function calls, expression evaluation, backtracking, or depth-first search."
     },
     {
         id: 7,
-        question: "When would you use a Queue ?",
-        answer: "When you need to manage tasks in a first-come, first-served manner, such as in scheduling processes (CPU scheduling) or handling requests (print queue). Breadth-first search."
+        question: "When would you use a Queue?",
+        answer: "A Queue is used to manage tasks in first-come, first-served order, like CPU scheduling, print queues, breadth-first search, or handling requests in web servers."
     },
     {
         id: 8,
-        question: "When would you use a Hash Table ?",
+        question: "When would you use a Hash Table?",
         answer: "When you need fast access to data based on unique keys, such as in implementing dictionaries, caches, or sets. It is also useful for counting occurrences of elements."
     },
     {
         id: 9,
-        question: "When would you use a Linked List ?",
+        question: "When would you use a Linked List?",
         answer: "When you need dynamic memory allocation and efficient insertions/deletions, such as in implementing stacks, queues, or adjacency lists for graphs. It is also useful for scenarios where the size of the data structure is unknown or changes frequently."
     },
     {
         id: 10,
-        question: "When would you use a Binary Tree ?",
+        question: "When would you use a Binary Tree?",
         answer: "When you need to maintain a sorted order of elements for efficient searching, insertion, and deletion, such as in binary search trees (BST). It is also useful for hierarchical data representation, expression parsing, and priority queues (using binary heaps)."
     },
 
