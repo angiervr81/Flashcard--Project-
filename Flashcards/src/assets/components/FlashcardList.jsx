@@ -3,12 +3,15 @@ import Flashcard from './Flashcard';
 import { flashcards } from '../data/flashcards';
 
 function FlashcardList() {
+  const [shuffledCards, setShuffledCards] = useState([...flashcards]);
+  const [streak, setStreak] = useState(0);
+  const [maxStreak, setMaxStreak] = useState(0);
   const [currentIndex, setCurrentIndex] = useState(0);
   const [flipped, setFlipped] = useState(false);  
   const [userGuess, setUserGuess] = useState('');
   const [feedBack, setFeedback] = useState(null);
 
-  const currentCard = flashcards[currentIndex];
+  const currentCard = shuffledCards[currentIndex];
 
   const normalize = (str) => 
    str.toLowerCase().replace(/[.,\/#!$%\^&\*;:{}=\-_`~()]/g, '').trim();
@@ -19,8 +22,15 @@ function FlashcardList() {
 
     if (normalizedAnswer.includes(normalizedGuess) && normalizedGuess != '')  {
       setFeedback('Correct!');
-    } else{
-      setFeedback(`Incorrect!`);
+      setStreak(prev => { 
+        const newStreak = prev + 1;
+        if (newStreak > maxStreak) setMaxStreak(newStreak);
+        return newStreak;
+    });
+
+    }else{
+      setFeedback('Incorrect!');
+      setStreak(0);
     }
     setFlipped(true);
   };
@@ -47,13 +57,21 @@ function FlashcardList() {
     setFlipped(false);
   };
 
+// Rename this function to avoid conflict with the state variable
+  function shuffleCards() { 
+    const shuffled = [...flashcards].sort(() => Math.random() - 0.5);
+    setShuffledCards(shuffled);
+    setCurrentIndex(0);
+    resetCardState();
+  }
+
 
   return (
     <div className="flashcard-list">
       <h1> Data Structures Flashcards</h1>
       <p className='card-description'>Explore essential data structures through flashcards! You'll review definitions, use cases, time complexities, common operations, comparisons, and more.</p>
       <p className='card-description'>Total Cards: {flashcards.length}</p>
-
+      <p className='card-description'>Current Streak: {streak} | Max Streak: {maxStreak}</p>  
       <div> 
         <input
           type = "text"
@@ -83,6 +101,10 @@ function FlashcardList() {
         >
           Next
           </button>
+        <button onClick={shuffleCards} style={{ marginLeft: '1rem' }}
+        >
+          Shuffle Cards
+        </button>
       </div>
     </div>
   );
