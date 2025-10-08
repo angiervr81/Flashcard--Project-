@@ -5,36 +5,46 @@ Submitted by: *Angie Rivera*
 **Explore essential data structures through flashcards!**
 You'll review definitions, use cases, time complexities, common operations, comparisons, and more.
 
-Time spent: **7** hours spent in total
+Time spent: **6** hours spent in total
 
 ## Required Features
 
 The following **required** functionality is completed:
 
 
-  - [X] **The app displays the title of the card set, a short description, and the total number of cards**
-    - [X] Title of card set is displayed 
-    - [X] A short description of the card set is displayed 
-    - [X] A list of card pairs is created
-    - [X] The total number of cards in the set is displayed 
-    - [X] Card set is represented as a list of card pairs (an array of dictionaries where each dictionary contains the question and answer is perfectly fine)
-  - [X] **A single card at a time is displayed**
-    - [X] Only one half of the information pair is displayed at a time
-  - [X] **Clicking on the card flips the card over, showing the corresponding component of the information pair**
-    - [X] Clicking on a card flips it over, showing the back with corresponding information 
-    - [X] Clicking on a flipped card again flips it back, showing the front
-  - [X] **Clicking on the next button displays a random new card**
+## Required Features
+
+The following **required** functionality is completed:
+
+- [X] **The user can enter their guess into an input box *before* seeing the flipside of the card**
+  - Application features a clearly labeled input box with a submit button where users can type in a guess
+  - Clicking on the submit button with an **incorrect** answer shows visual feedback that it is wrong 
+  - Clicking on the submit button with a **correct** answer shows visual feedback that it is correct
+- [X] **The user can navigate through an ordered list of cardss**
+  - A forward/next button displayed on the card navigates to the next card in a set sequence when clicked
+  - A previous/back button displayed on the card returns to the previous card in the set sequence when clicked
+  - Both the next and back buttons should have some visual indication that the user is at the beginning or end of the list (for example, graying out and no longer being available to click), not allowing for wrap-around navigation
 
 The following **optional** features are implemented:
 
-  - [X] Cards contain images in addition to or in place of text
-  - [X] Some or all cards have images in place of or in addition to text
+
+- [X] **Users can use a shuffle button to randomize the order of the cards**
+  - Cards should remain in the same sequence (**NOT** randomized) unless the shuffle button is clicked 
+  - Cards should change to a random sequence once the shuffle button is clicked
+- [X] **A user’s answer may be counted as correct even when it is slightly different from the target answer**
+  - Answers are considered correct even if they only partially match the answer on the card 
+  - Examples: ignoring uppercase/lowercase discrepancies, ignoring punctuation discrepancies, matching only for a particular part of the answer rather than the whole answer
+- [X] **A counter displays the user’s current and longest streak of correct responses**
+  - The current counter increments when a user guesses an answer correctly
+  - The current counter resets to 0 when a user guesses an answer incorrectly
+  - A separate counter tracks the longest streak, updating if the value of the current streak counter exceeds the value of the longest streak counter 
+
 
 ## Video Walkthrough
 
 Here's a walkthrough of implemented required features:
 
-<img src="./Wk2_Project2_Flashcards.gif" title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<img src="./WK3_Project3_Flashcards_PT2" title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 GIF created with ...  
 [ScreenToGif](https://www.screentogif.com/) for Windows
@@ -46,6 +56,10 @@ Describe any challenges encountered while building the app.
 - Flashcard Component: Creating the Flashcard.jsx component was tricky due to structuring and integrating conditional logic for displaying text or images.
 - Random Card Logic: Implementing randomized card selection involved additional logic in FlashcardList.jsx.
 - Styling: Choosing design elements and applying consistent CSS styling to make the flashcards visually appealing required several iterations.
+- Shuffling cards
+- setting up an input box with no text limit
+- making sure case characters didn't matter
+- making sure the respones was giving correct or incorrect based on the answer text 
 
 
 ### Project File Structure
